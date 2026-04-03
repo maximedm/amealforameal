@@ -1,0 +1,66 @@
+x-app-base: &app-base
+  build: { context: ., dockerfile: Dockerfile }
+  environment: &app-env
+    APP_NAME: "${APP_NAME:-A Meal For A Meal}"
+    APP_ENV: "${APP_ENV:-production}"
+    APP_DEBUG: "${APP_DEBUG:-false}"
+    APP_KEY: "${APP_KEY}"
+    APP_URL: "${APP_URL}"
+    DB_CONNECTION: "${DB_CONNECTION:-pgsql}"
+    DB_HOST: "${DB_HOST:-amealforameal-db}"
+    DB_PORT: "${DB_PORT:-5432}"
+    DB_DATABASE: "${DB_DATABASE:-amealforameal}"
+    DB_USERNAME: "${DB_USERNAME:-amealforameal}"
+    DB_PASSWORD: "${DB_PASSWORD}"
+    QUEUE_CONNECTION: "${QUEUE_CONNECTION:-sync}"
+    CACHE_STORE: "${CACHE_STORE:-database}"
+    SESSION_DRIVER: "${SESSION_DRIVER:-database}"
+    LOG_CHANNEL: "${LOG_CHANNEL:-stderr}"
+    MAIL_MAILER: "${MAIL_MAILER:-log}"
+    MAIL_HOST: "${MAIL_HOST:-}"
+    MAIL_PORT: "${MAIL_PORT:-587}"
+    MAIL_USERNAME: "${MAIL_USERNAME:-}"
+    MAIL_PASSWORD: "${MAIL_PASSWORD:-}"
+    MAIL_FROM_ADDRESS: "${MAIL_FROM_ADDRESS:-hello@example.com}"
+    MAIL_FROM_NAME: "${MAIL_FROM_NAME:-A Meal For A Meal}"
+  restart: unless-stopped
+
+services:
+  app:
+    <<: *app-base
+    environment:
+      <<: *app-env
+      CONTAINER_ROLE: app
+    expose: ["3000"]
+    depends_on:
+      amealforameal-db: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/up"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks: [internal, dokploy-network]
+
+  amealforameal-db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: "${DB_DATABASE:-amealforameal}"
+      POSTGRES_USER: "${DB_USERNAME:-amealforameal}"
+      POSTGRES_PASSWORD: "${DB_PASSWORD}"
+    volumes: [db-data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERNAME:-amealforameal} -d ${DB_DATABASE:-amealforameal}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks: [internal]
+    restart: unless-stopped
+
+volumes:
+  db-data:
+
+networks:
+  internal:
+  dokploy-network:
+    external: true
