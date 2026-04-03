@@ -174,10 +174,11 @@ export default function Home() {
                 <div className="mx-auto max-w-4xl text-center">
                     <SectionHeading title="Projects" />
                     <p className="mx-auto mt-6 max-w-2xl leading-relaxed text-brand-text">
-                        Celebrating 10 years of sustained impact, our flagship
-                        programme provides 2,000 daily meals to primary school
-                        children in Jinja, Buikwe District, Uganda &mdash; in
-                        collaboration with SOS Malta.
+                        Aligned with our CSR priorities, our flagship programme,
+                        Meal for a Meal, established in June 2016 in
+                        collaboration with SOS Malta, celebrates 10 years of
+                        sustained impact, providing 2,000 daily meals to primary
+                        school children in Jinja, Buikwe District, Uganda.
                     </p>
                     <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4">
                         <img src="/images/children-queuing-with-cups.webp" srcSet="/images/children-queuing-with-cups-640w.webp 640w, /images/children-queuing-with-cups-1024w.webp 1024w, /images/children-queuing-with-cups.webp 1200w" sizes="(max-width: 768px) 50vw, 25vw" alt="Children queuing with cups" loading="lazy" className="aspect-square w-full rounded-lg object-cover shadow" />
