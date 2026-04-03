@@ -44,15 +44,17 @@ const goals = [
 export default function Goals() {
     return (
         <>
-            <Head title="United Nations Sustainable Development Goals" />
+            <Head title="UN Sustainable Development Goals — A Meal For A Meal">
+                <meta name="description" content="A Meal For A Meal contributes to six UN Sustainable Development Goals: No Poverty, Zero Hunger, Quality Education, Gender Equality, Reduced Inequalities, and Partnership for the Goals." />
+            </Head>
 
             <section className="px-4 py-16 md:py-24">
                 <div className="mx-auto max-w-4xl">
-                    <SectionHeading title="United Nations Sustainable Development Goals" />
+                    <SectionHeading as="h1" title="United Nations Sustainable Development Goals" />
 
                     <div className="mt-8 overflow-hidden rounded-lg">
                         <img
-                            src="/images/children-smiling-group.jpeg"
+                            src="/images/children-smiling-group.webp"
                             alt="Children smiling together at school"
                             className="h-64 w-full object-cover"
                         />

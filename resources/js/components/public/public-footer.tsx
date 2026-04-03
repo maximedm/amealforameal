@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 import { MapPin, Phone, Mail, Globe } from 'lucide-react';
 
 export default function PublicFooter() {
@@ -8,7 +9,7 @@ export default function PublicFooter() {
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <div className="space-y-4">
                             <img
-                                src="/images/logo-white-amfam.png"
+                                src="/images/logo-white-amfam.webp"
                                 alt="A Meal For A Meal"
                                 className="h-40 w-auto"
                                 style={{ filter: 'brightness(0) saturate(100%) invert(75%) sepia(40%) saturate(600%) hue-rotate(350deg) brightness(95%)' }}
@@ -61,44 +62,29 @@ export default function PublicFooter() {
                             </h3>
                             <ul className="space-y-2 text-sm">
                                 <li>
-                                    <a
-                                        href="/our-story"
-                                        className="hover:text-white"
-                                    >
+                                    <Link href="/our-story" className="hover:text-white">
                                         Our Story
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/projects"
-                                        className="hover:text-white"
-                                    >
+                                    <Link href="/projects" className="hover:text-white">
                                         Projects
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/goals"
-                                        className="hover:text-white"
-                                    >
+                                    <Link href="/goals" className="hover:text-white">
                                         Goals
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/partners"
-                                        className="hover:text-white"
-                                    >
+                                    <Link href="/partners" className="hover:text-white">
                                         Partners
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/news"
-                                        className="hover:text-white"
-                                    >
+                                    <Link href="/news" className="hover:text-white">
                                         News
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

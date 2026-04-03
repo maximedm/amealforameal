@@ -1,23 +1,23 @@
 import { Link } from '@inertiajs/react';
 
 const sdgGoals = [
-    { number: 1, label: 'No Poverty', image: '/images/sdg/goal-1.jpg' },
-    { number: 2, label: 'Zero Hunger', image: '/images/sdg/goal-2.jpg' },
+    { number: 1, label: 'No Poverty', image: '/images/sdg/goal-1.webp' },
+    { number: 2, label: 'Zero Hunger', image: '/images/sdg/goal-2.webp' },
     {
         number: 4,
         label: 'Quality Education',
-        image: '/images/sdg/goal-4.jpg',
+        image: '/images/sdg/goal-4.webp',
     },
-    { number: 5, label: 'Gender Equality', image: '/images/sdg/goal-5.jpg' },
+    { number: 5, label: 'Gender Equality', image: '/images/sdg/goal-5.webp' },
     {
         number: 10,
         label: 'Reduced Inequalities',
-        image: '/images/sdg/goal-10.jpg',
+        image: '/images/sdg/goal-10.webp',
     },
     {
         number: 17,
         label: 'Partnerships for the Goals',
-        image: '/images/sdg/goal-17.jpg',
+        image: '/images/sdg/goal-17.webp',
     },
 ];
 

@@ -20,7 +20,7 @@ export default function PublicNavbar() {
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
                 <Link href="/" className="flex-shrink-0">
                     <img
-                        src="/images/amfam-logo.png"
+                        src="/images/amfam-logo.webp"
                         alt="A Meal For A Meal"
                         className="h-16 w-auto"
                     />
@@ -37,6 +37,7 @@ export default function PublicNavbar() {
                             <Link
                                 key={link.href}
                                 href={link.href}
+                                prefetch
                                 className={`px-4 py-2 font-heading text-xs font-semibold uppercase tracking-widest transition-colors ${
                                     isActive
                                         ? 'text-brand-gold'

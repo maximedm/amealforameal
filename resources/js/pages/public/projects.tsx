@@ -15,16 +15,16 @@ const projects = [
             color: 'brand-gold',
         },
         images: [
-            { src: '/images/projects-hero.jpg', alt: 'St. Charles Lwanga school' },
-            { src: '/images/projects-expansion.jpg', alt: 'Reaching more school children' },
-            { src: '/images/original/SOS-Malta-019-870x450.jpg', alt: 'School building in Uganda' },
-            { src: '/images/original/SOS-Malta-105-870x450.jpg', alt: 'Children being served porridge' },
-            { src: '/images/original/SOS-Malta-122-870x450.jpg', alt: 'Children queuing for meals' },
-            { src: '/images/original/SOS-Malta-162.jpg', alt: 'Children with cups at school grounds' },
-            { src: '/images/original/SOS-Malta-163-870x450.jpg', alt: 'Children waiting for meals' },
-            { src: '/images/original/AMFAM-3-870x450.jpg', alt: 'Volunteer serving porridge' },
-            { src: '/images/original/AMFAM_2.jpg', alt: 'Children smiling in classroom' },
-            { src: '/images/original/AMFAM_3.jpg', alt: 'Group photo with children and staff' },
+            { src: '/images/projects-hero.webp', alt: 'St. Charles Lwanga school' },
+            { src: '/images/projects-expansion.webp', alt: 'Reaching more school children' },
+            { src: '/images/original/SOS-Malta-019-870x450.webp', alt: 'School building in Uganda' },
+            { src: '/images/original/SOS-Malta-105-870x450.webp', alt: 'Children being served porridge' },
+            { src: '/images/original/SOS-Malta-122-870x450.webp', alt: 'Children queuing for meals' },
+            { src: '/images/original/SOS-Malta-162.webp', alt: 'Children with cups at school grounds' },
+            { src: '/images/original/SOS-Malta-163-870x450.webp', alt: 'Children waiting for meals' },
+            { src: '/images/original/AMFAM-3-870x450.webp', alt: 'Volunteer serving porridge' },
+            { src: '/images/original/AMFAM_2.webp', alt: 'Children smiling in classroom' },
+            { src: '/images/original/AMFAM_3.webp', alt: 'Group photo with children and staff' },
         ],
     },
     {
@@ -33,11 +33,11 @@ const projects = [
         description:
             'Our first project in South Africa: a soup kitchen in Jacobsville providing daily meals to children in the community. Through local volunteers and partnerships, we bring warm meals to those who need them most.',
         images: [
-            { src: '/images/original/20190613_162859-870x450.jpg', alt: 'Partnership handshake with children' },
-            { src: '/images/original/JC-11-870x450.jpg', alt: 'Volunteers preparing meals' },
-            { src: '/images/original/JC-4-870x450.jpg', alt: 'Children gathered at the soup kitchen' },
-            { src: '/images/original/JC-5-870x450.jpg', alt: 'Children queuing for food outdoors' },
-            { src: '/images/original/JC-7-870x450.jpg', alt: 'Children eating at the soup kitchen' },
+            { src: '/images/original/20190613_162859-870x450.webp', alt: 'Partnership handshake with children' },
+            { src: '/images/original/JC-11-870x450.webp', alt: 'Volunteers preparing meals' },
+            { src: '/images/original/JC-4-870x450.webp', alt: 'Children gathered at the soup kitchen' },
+            { src: '/images/original/JC-5-870x450.webp', alt: 'Children queuing for food outdoors' },
+            { src: '/images/original/JC-7-870x450.webp', alt: 'Children eating at the soup kitchen' },
         ],
     },
     {
@@ -46,29 +46,29 @@ const projects = [
         description:
             'Daily feeding programme at St. Bernadette Nursery and Primary School in Nakibizzi, Jinja, Uganda. The school management, staff and pupils extend their deepest gratitude to all the generous donors.',
         images: [
-            { src: '/images/children-holding-meals.jpeg', alt: 'Children holding meals' },
-            { src: '/images/children-eating-at-table.jpeg', alt: 'Children eating at table' },
-            { src: '/images/children-smiling-group.jpeg', alt: 'Children smiling together' },
-            { src: '/images/kitchen-meal-serving.jpeg', alt: 'Meals being served in the kitchen' },
-            { src: '/images/students-eating-veranda.jpeg', alt: 'Students eating on the veranda' },
-            { src: '/images/children-lunchtime-schoolyard.jpeg', alt: 'Lunchtime in the schoolyard' },
-            { src: '/images/boy-eating-schoolyard.jpeg', alt: 'Boy eating at school' },
-            { src: '/images/children-eating-courtyard.jpeg', alt: 'Children eating in the courtyard' },
-            { src: '/images/child-drinking-closeup.jpeg', alt: 'Child drinking from a cup' },
-            { src: '/images/children-queuing-with-cups.jpeg', alt: 'Children queuing with cups' },
-            { src: '/images/students-eating-lunch.jpeg', alt: 'Students eating lunch' },
-            { src: '/images/food-supply-maize-flour.jpeg', alt: 'Maize flour supply' },
-            { src: '/images/food-supply-storeroom.jpeg', alt: 'Food storeroom' },
-            { src: '/images/food-supply-storeroom-full.jpeg', alt: 'Fully stocked storeroom' },
-            { src: '/images/food-supply-flour-sacks.jpeg', alt: 'Flour sacks' },
-            { src: '/images/food-supply-sacks-storage.jpeg', alt: 'Food sacks in storage' },
-            { src: '/images/food-supply-sacks-yellow.jpeg', alt: 'Yellow food supply sacks' },
-            { src: '/images/food-supply-warehouse.jpeg', alt: 'Food warehouse' },
+            { src: '/images/children-holding-meals.webp', alt: 'Children holding meals' },
+            { src: '/images/children-eating-at-table.webp', alt: 'Children eating at table' },
+            { src: '/images/children-smiling-group.webp', alt: 'Children smiling together' },
+            { src: '/images/kitchen-meal-serving.webp', alt: 'Meals being served in the kitchen' },
+            { src: '/images/students-eating-veranda.webp', alt: 'Students eating on the veranda' },
+            { src: '/images/children-lunchtime-schoolyard.webp', alt: 'Lunchtime in the schoolyard' },
+            { src: '/images/boy-eating-schoolyard.webp', alt: 'Boy eating at school' },
+            { src: '/images/children-eating-courtyard.webp', alt: 'Children eating in the courtyard' },
+            { src: '/images/child-drinking-closeup.webp', alt: 'Child drinking from a cup' },
+            { src: '/images/children-queuing-with-cups.webp', alt: 'Children queuing with cups' },
+            { src: '/images/students-eating-lunch.webp', alt: 'Students eating lunch' },
+            { src: '/images/food-supply-maize-flour.webp', alt: 'Maize flour supply' },
+            { src: '/images/food-supply-storeroom.webp', alt: 'Food storeroom' },
+            { src: '/images/food-supply-storeroom-full.webp', alt: 'Fully stocked storeroom' },
+            { src: '/images/food-supply-flour-sacks.webp', alt: 'Flour sacks' },
+            { src: '/images/food-supply-sacks-storage.webp', alt: 'Food sacks in storage' },
+            { src: '/images/food-supply-sacks-yellow.webp', alt: 'Yellow food supply sacks' },
+            { src: '/images/food-supply-warehouse.webp', alt: 'Food warehouse' },
         ],
         extra: (
             <div className="mt-8 text-center">
                 <img
-                    src="/images/st-bernadette-appreciation-letter.jpeg"
+                    src="/images/st-bernadette-appreciation-letter.webp"
                     alt="Appreciation letter from St. Bernadette Primary School"
                     loading="lazy"
                     className="mx-auto max-w-lg rounded-lg shadow-lg"
@@ -117,13 +117,15 @@ function GalleryGrid({ images }: { images: { src: string; alt: string }[] }) {
 export default function Projects() {
     return (
         <>
-            <Head title="Our Projects" />
+            <Head title="Our Projects — School Feeding Programmes in Africa">
+                <meta name="description" content="A Meal For A Meal runs school feeding programmes in Uganda and South Africa, providing thousands of daily meals to children through partnerships with SOS Malta and local organizations." />
+            </Head>
 
             {/* Hero */}
             <section className="relative px-4 py-20 text-center text-white md:py-28">
                 <div
                     className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: "url('/images/original/SOS-Malta-122-870x450.jpg')" }}
+                    style={{ backgroundImage: "url('/images/original/SOS-Malta-122-870x450.webp')" }}
                 >
                     <div className="h-full w-full bg-black/60" />
                 </div>

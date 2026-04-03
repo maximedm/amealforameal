@@ -1,2 +1,6 @@
 User-agent: *
-Disallow:
+Disallow: /dashboard
+Disallow: /articles
+Disallow: /settings
+
+Sitemap: https://amealforameal.com/sitemap.xml

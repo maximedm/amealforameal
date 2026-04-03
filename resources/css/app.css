@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import './fonts.css';
 
 @import 'tw-animate-css';
 
@@ -12,8 +13,8 @@
         'Instrument Sans', ui-sans-serif, system-ui, sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
-    --font-heading: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
-    --font-body: 'Lato', ui-sans-serif, system-ui, sans-serif;
+    --font-heading: 'Montserrat', ui-sans-serif, system-ui, sans-serif; /* weights: 400, 600, 700 */
+    --font-body: 'Lato', ui-sans-serif, system-ui, sans-serif; /* weights: 400, 700 */
 
     --color-brand-gold: #F2B23D;
     --color-brand-gold-light: #F2C674;
