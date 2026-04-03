@@ -32,11 +32,13 @@ export default function NewsIndex({
 }: Props) {
     return (
         <>
-            <Head title="News & Updates" />
+            <Head title="News & Updates — A Meal For A Meal">
+                <meta name="description" content="Latest news, stories, and updates from A Meal For A Meal — the Romy Foods programme providing meals to children in need across Africa." />
+            </Head>
 
             <section className="px-4 py-16 md:py-24">
                 <div className="mx-auto max-w-6xl">
-                    <SectionHeading title="News & Updates" />
+                    <SectionHeading as="h1" title="News & Updates" />
 
                     <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_280px]">
                         {/* Main Content */}

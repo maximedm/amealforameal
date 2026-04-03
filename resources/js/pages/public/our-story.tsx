@@ -5,34 +5,43 @@ import SectionHeading from '@/components/public/section-heading';
 export default function OurStory() {
     return (
         <>
-            <Head title="Our Story" />
+            <Head title="Our Story — How A Meal For A Meal Began">
+                <meta name="description" content="In 2016, Romy Foods founder Rickard Gillblad saw the contrast between food waste in Europe and famine in Africa — and decided to act. For every meal sold, one is given to a child in need." />
+            </Head>
 
             <section className="px-4 py-16 md:py-24">
                 <div className="mx-auto max-w-4xl">
+                    <h1 className="mb-10 text-center font-heading text-2xl font-bold uppercase tracking-wider text-brand-text md:text-3xl">
+                        Our Story
+                    </h1>
                     <div className="grid items-start gap-10 md:grid-cols-2">
                         <div>
                             <img
-                                src="/images/our-story.jpg"
+                                src="/images/our-story.webp"
                                 alt="Children at school in Uganda"
                                 className="w-full rounded-lg shadow-lg"
                             />
                         </div>
                         <div>
                             <p className="leading-relaxed text-brand-gray">
-                                A Meal for A Meal was launched in 2016 as the
-                                Romy Foods global food programme with the aim of
-                                helping defeat global hunger.
+                                Aligned with our CSR priorities, our flagship
+                                programme, Meal for a Meal, was established in
+                                June 2016 in collaboration with SOS Malta.
                             </p>
                             <p className="mt-4 leading-relaxed text-brand-gray">
                                 Our story started when Rickard Gillblad, Romy
-                                Foods CEO and founder came across a map showing
+                                Foods CEO and founder, came across a map showing
                                 how much food is wasted in Europe and the level
-                                of famine in Africa, country by country. Touched
-                                by the numbers, he thought that scratching off
-                                the food waste in Europe and supplying it to
-                                children in Africa would be what he wanted his
-                                company to achieve, and the Romy Foods platform
-                                was created.
+                                of famine in Africa. Touched by the numbers, he
+                                created the Romy Foods platform to turn food
+                                waste reduction into meals for children in
+                                Africa.
+                            </p>
+                            <p className="mt-4 leading-relaxed text-brand-gray">
+                                Now celebrating 10 years of sustained impact, the
+                                programme provides 2,000 daily meals to primary
+                                school children in Jinja, Buikwe District,
+                                Uganda.
                             </p>
                             <p className="mt-4 leading-relaxed text-brand-gray">
                                 Today, for every meal served worldwide through
@@ -59,9 +68,9 @@ export default function OurStory() {
 
                     {/* Photo Gallery */}
                     <div className="mt-16 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-                        <img src="/images/child-drinking-closeup.jpeg" alt="Child drinking from a cup" className="h-56 w-full rounded-lg object-cover shadow" />
-                        <img src="/images/children-queuing-with-cups.jpeg" alt="Children queuing with cups" className="h-56 w-full rounded-lg object-cover shadow" />
-                        <img src="/images/children-eating-courtyard.jpeg" alt="Children eating in the courtyard" className="h-56 w-full rounded-lg object-cover shadow" />
+                        <img src="/images/child-drinking-closeup.webp" alt="Child drinking from a cup" className="h-56 w-full rounded-lg object-cover shadow" />
+                        <img src="/images/children-queuing-with-cups.webp" alt="Children queuing with cups" className="h-56 w-full rounded-lg object-cover shadow" />
+                        <img src="/images/children-eating-courtyard.webp" alt="Children eating in the courtyard" className="h-56 w-full rounded-lg object-cover shadow" />
                     </div>
 
                     {/* Interview Link */}

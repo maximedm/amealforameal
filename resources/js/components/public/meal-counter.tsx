@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 
 export default function MealCounter({
-    target = 1618445,
-    duration = 2000,
+    target = 2551776,
+    duration = 1200,
     className = '',
 }: {
     target?: number;
@@ -32,12 +32,13 @@ export default function MealCounter({
 
         function animate() {
             const start = performance.now();
+            const from = Math.floor(target * 0.85);
 
             function step(now: number) {
                 const elapsed = now - start;
                 const progress = Math.min(elapsed / duration, 1);
                 const eased = 1 - Math.pow(1 - progress, 3);
-                setCount(Math.floor(eased * target));
+                setCount(Math.floor(from + eased * (target - from)));
 
                 if (progress < 1) {
                     requestAnimationFrame(step);
