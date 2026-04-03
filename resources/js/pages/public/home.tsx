@@ -13,7 +13,7 @@ export default function Home() {
             <section className="relative px-4 py-28 text-center text-white md:py-44">
                 <div
                     className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: "url('/images/students-eating-lunch.jpeg')" }}
+                    style={{ backgroundImage: "url('/images/original/SOS-Malta-162.jpg')" }}
                 >
                     <div className="h-full w-full bg-black/60" />
                 </div>
