@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/maxim/.config/herd/bin/php84/php.exe artisan:*)",
+      "Skill(agent-browser)",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.07.17.jpeg\" \"food-supply-sacks-yellow.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.07.17 \\(1\\).jpeg\" \"food-supply-sacks-storage.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.07.17 \\(2\\).jpeg\" \"food-supply-flour-sacks.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.07.17 \\(3\\).jpeg\" \"children-holding-meals.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.07.17 \\(4\\).jpeg\" \"students-eating-lunch.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.07.18.jpeg\" \"students-eating-veranda.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.07.18 \\(1\\).jpeg\" \"st-bernadette-appreciation-letter.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53.jpeg\" \"child-drinking-closeup.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53 \\(1\\).jpeg\" \"children-queuing-with-cups.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53 \\(2\\).jpeg\" \"food-supply-maize-flour.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53 \\(4\\).jpeg\" \"food-supply-storeroom.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53 \\(5\\).jpeg\" \"food-supply-warehouse.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53 \\(6\\).jpeg\" \"children-eating-at-table.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53 \\(7\\).jpeg\" \"boy-eating-schoolyard.jpeg\")",
+      "Bash(mv \"WhatsApp Image 2026-04-02 at 07.08.53 \\(8\\).jpeg\" \"food-supply-storeroom-full.jpeg\")",
+      "Bash(mv \"WhatsApp Video 2026-04-02 at 07.07.19.mp4\" \"school-feeding-program-video-1.mp4\")",
+      "Bash(mv \"WhatsApp Video 2026-04-02 at 07.08.55.mp4\" \"school-feeding-program-video-2.mp4\")",
+      "Bash(mv \"WhatsApp Video 2026-04-02 at 07.08.55 \\(1\\).mp4\" \"school-feeding-program-video-3.mp4\")",
+      "Bash(mv \"WhatsApp Video 2026-04-02 at 07.08.55 \\(2\\).mp4\" \"school-feeding-program-video-4.mp4\")",
+      "WebFetch(domain:amealforameal.com)"
+    ]
+  }
+}
